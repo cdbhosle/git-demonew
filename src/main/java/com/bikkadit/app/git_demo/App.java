@@ -1,15 +1,12 @@
 package com.bikkadit.app.git_demo;
 
-/**
- * Hello world!
- *
- */
+
 public class App 
 {
 	public void addData(String data)
 	{
-		System.out.println("data" +data);
-		if(data.equals("BikkadIt"))
+	
+		if(data.equals(Constant.DATA_TYPE))
 		{
 			System.out.println("Welcome");
 		}
